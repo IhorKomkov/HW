@@ -1,3 +1,5 @@
+from collections import Counter, defaultdict
+
 # class work
 #<----------------------------------------->
 # d = {3: 4, 15: 8, 13: 11, 8: 2}
@@ -94,3 +96,17 @@
 # d = {3: 4, 15: 8, 13: 11, 8: 2, 34: 5, 88: 5}
 # j = d.pop(3)
 # print(d)
+
+
+# task 7
+#<----------------------------------------->
+l = [i for i in range(1,6)]
+
+d = {} #defaultdict(int)
+d = Counter(l)
+
+# for i in l:
+#     d[i] += -1
+
+
+print (d)
