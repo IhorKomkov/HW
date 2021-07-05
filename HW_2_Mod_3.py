@@ -100,13 +100,13 @@ from collections import Counter, defaultdict
 
 # task 7
 #<----------------------------------------->
-l = [i for i in range(1,6)]
-
-d = {} #defaultdict(int)
-d = Counter(l)
-
-# for i in l:
-#     d[i] += -1
-
-
-print (d)
+# l = [i for i in range(1,6)]
+#
+# d = {} #defaultdict(int)
+# d = Counter(l)
+#
+# # for i in l:
+# #     d[i] += -1
+#
+#
+# print (d)
